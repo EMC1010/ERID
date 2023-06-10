@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">E.R. ID</string>
+    <string name="i_have_read_and_agree_with_e_r_id_s_terms_and_conditions">I have read and agree with E.R. ID\'s terms and conditions</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
