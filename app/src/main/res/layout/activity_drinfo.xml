@@ -70,8 +70,8 @@
         android:backgroundTint="#D9D9D9"
         android:text="Save"
         android:textColor="#0C0C0C"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="637dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="657dp" />
 
     <EditText
         android:id="@+id/editTextText4"
