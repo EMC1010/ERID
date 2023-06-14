@@ -9,4 +9,6 @@
     <string name="last_name">Last Name</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="patient">PATIENT</string>
+    <string name="doctor">DOCTOR</string>
 </resources>
