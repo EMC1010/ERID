@@ -6,6 +6,13 @@
     android:background="#91DEFF"
     android:backgroundTint="#91DEFF">
 
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow_back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp" />
+
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
@@ -33,11 +40,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="@string/username"
         android:inputType="textEmailAddress"
+        android:text="@string/username"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="95dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="111dp" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -64,7 +71,9 @@
         android:layout_width="182dp"
         android:layout_height="63dp"
         android:backgroundTint="#D9D9D9"
-        android:text="sign up"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:text="SIGN UP"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
         tools:ignore="MissingConstraints"

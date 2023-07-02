@@ -13,23 +13,30 @@
         android:inputType="text"
         android:text="Name"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="554dp" />
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="497dp" />
 
     <ImageView
-        android:layout_width="294dp"
-        android:layout_height="297dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:src="@drawable/doctor"
         tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="73dp" />
+        tools:layout_editor_absoluteY="50dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_close"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Doctor ID Num 001"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="31dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -37,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="DOCTOR INFORMATION"
         tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="370dp" />
+        tools:layout_editor_absoluteY="347dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -45,7 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Name"
         tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="449dp" />
+        tools:layout_editor_absoluteY="384dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -53,7 +60,7 @@
         android:layout_height="wrap_content"
         android:text="Assignment of Hospital"
         tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="504dp" />
+        tools:layout_editor_absoluteY="449dp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -61,17 +68,20 @@
         android:layout_height="wrap_content"
         android:text="Specialization"
         tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="561dp" />
+        tools:layout_editor_absoluteY="523dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#D9D9D9"
-        android:text="Save"
+        android:fontFamily="sans-serif-black"
+        android:text="SAVE"
         android:textColor="#0C0C0C"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="657dp" />
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="636dp" />
 
     <EditText
         android:id="@+id/editTextText4"
@@ -81,8 +91,8 @@
         android:inputType="text"
         android:text="Name"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="435dp" />
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="384dp" />
 
     <EditText
         android:id="@+id/editTextText5"
@@ -92,6 +102,6 @@
         android:inputType="text"
         android:text="Name"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="495dp" />
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="439dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
