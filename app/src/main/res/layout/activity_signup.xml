@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#91DEFF"
     android:backgroundTint="#91DEFF">
 
@@ -11,7 +12,11 @@
         android:layout_height="50dp"
         android:src="@drawable/ic_arrow_back"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="26dp" />
+        tools:layout_editor_absoluteY="26dp"
+        app:layout_constraintTop_toTopOf=""
+        app:layout_constraintStart_toStartOf=""
+        app:layout_constraintBottom_toBottomOf=""
+        app:layout_constraintEnd_toEndOf=""/>
 
     <EditText
         android:id="@+id/editTextText"
