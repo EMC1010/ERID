@@ -27,27 +27,38 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
         android:text="ARE YOU A:"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="156dp"
-        tools:ignore="MissingConstraints" />
+        android:textColor="#0C0C0C"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="153dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/doctor"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="442dp"
-        tools:ignore="MissingConstraints" />
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="442dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/patient"
-        tools:layout_editor_absoluteX="287dp"
-        tools:layout_editor_absoluteY="442dp"
-        tools:ignore="MissingConstraints" />
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="442dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
