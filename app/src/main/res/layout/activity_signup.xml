@@ -25,20 +25,26 @@
         android:ems="10"
         android:inputType="text"
         android:text="@string/first_name"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="230dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="230dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="@string/password"
         android:inputType="textPassword"
+        android:text="@string/password"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="169dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="169dp" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -47,6 +53,9 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="@string/username"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="111dp" />
@@ -58,15 +67,19 @@
         android:ems="10"
         android:inputType="text"
         android:text="@string/last_name"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="293dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="293dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/i_have_read_and_agree_with_e_r_id_s_terms_and_conditions"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="448dp" />

@@ -5,20 +5,31 @@
     android:layout_height="match_parent"
     android:background="#91DEFF">
 
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="DOCTOR'S INFORMATION"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="361dp" />
+
     <ImageView
         android:layout_width="408dp"
         android:layout_height="361dp"
         android:src="@drawable/doctor"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-1dp"/>
+        tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/ic_qr_code"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="361dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="393dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
