@@ -11,4 +11,14 @@
     <string name="password">Password</string>
     <string name="patient">PATIENT</string>
     <string name="doctor">DOCTOR</string>
+
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Lesbian</item>
+        <item>Gay</item>
+        <item>Transgender</item>
+    </string-array>
+
 </resources>
