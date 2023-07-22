@@ -22,7 +22,7 @@
         android:id="@+id/button4"
         android:layout_width="182dp"
         android:layout_height="63dp"
-        android:backgroundTint="#D9D9D9"
+        android:backgroundTint="#CCFFD1"
         android:fontFamily="sans-serif-black"
         android:textStyle="bold"
         android:text="LOGIN"
@@ -34,29 +34,33 @@
 
     <EditText
         android:id="@+id/editTextText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
         android:text="Username"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
+        android:textSize="25dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="423dp" />
+        tools:layout_editor_absoluteY="385dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
         android:autofillHints="*******"
         android:ems="10"
+        android:background="@drawable/textbox"
         android:inputType="textPassword"
         android:text="**********"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textStyle="bold"
+        android:textSize="25dp"
         tools:ignore="LabelFor,MissingConstraints"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="483dp" />
