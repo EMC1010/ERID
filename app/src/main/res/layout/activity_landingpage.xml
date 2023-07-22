@@ -23,38 +23,40 @@
         android:id="@+id/button"
         android:layout_width="182dp"
         android:layout_height="63dp"
+        android:layout_gravity="center"
         android:backgroundTint="#D9D9D9"
+        android:elevation="50dp"
         android:fontFamily="sans-serif-black"
+        android:padding="10dp"
         android:text="SIGN UP"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:elevation="50dp"
-        android:padding="10dp"
-        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695"
-        app:rippleColor="#D9D9D9" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="182dp"
         android:layout_height="63dp"
+        android:layout_gravity="center"
         android:backgroundTint="#D9D9D9"
         android:fontFamily="sans-serif-black"
+        android:elevation="50dp"
         android:text="LOGIN"
+        android:padding="10dp"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
+        app:layout_constraintVertical_bias="0.844" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

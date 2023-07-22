@@ -1,4 +1,11 @@
 package com.cebu.erid
 
-class PatientCodeActivity {
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class PatientCodeActivity: AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_patientcode)
+    }
 }
