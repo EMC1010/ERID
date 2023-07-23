@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.008" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnLogin"
         android:layout_width="182dp"
         android:layout_height="63dp"
         android:backgroundTint="#CCFFD1"
@@ -33,7 +33,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/etUsername"
         android:layout_width="230dp"
         android:layout_height="55dp"
         android:background="@drawable/textbox"
@@ -49,7 +49,7 @@
         tools:layout_editor_absoluteY="385dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/etPassword"
         android:layout_width="230dp"
         android:layout_height="55dp"
         android:autofillHints="*******"
