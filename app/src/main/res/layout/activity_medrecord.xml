@@ -7,6 +7,7 @@
     android:background="#91DEFF">
 
     <ImageView
+        android:id="@+id/btnClose"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_close"
@@ -181,7 +182,7 @@
         app:layout_constraintVertical_bias="0.261" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:backgroundTint="#ccffd1"
@@ -197,7 +198,7 @@
         app:layout_constraintVertical_bias="0.908" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:backgroundTint="#ccffd1"
