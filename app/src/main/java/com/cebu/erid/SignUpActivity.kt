@@ -5,11 +5,13 @@ import android.os.Bundle
 import java.util.Scanner
 
 class SignUpActivity : AppCompatActivity() {
+
+    data class User(val username: String, val password: String, val firstname: String, val lastname: String)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
 
-        data class User(val username: String, val password: String, val firstname: String, val lastname: String)
+
 
         fun main() {
             val scanner = Scanner(System.'in')

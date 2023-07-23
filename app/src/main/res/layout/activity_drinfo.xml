@@ -34,6 +34,7 @@
         app:layout_constraintVertical_bias="0.136" />
 
     <ImageView
+        android:id="@+id/btnClose"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_close"
@@ -118,7 +119,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#ccffd1"
