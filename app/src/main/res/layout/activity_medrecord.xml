@@ -220,13 +220,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextText10"
@@ -236,13 +237,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
 
     <EditText
         android:id="@+id/editTextText11"
@@ -252,13 +254,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
 
     <EditText
         android:id="@+id/editTextText12"
@@ -268,13 +271,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
 
     <EditText
         android:id="@+id/editTextText13"
@@ -284,13 +288,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextText14"
@@ -300,13 +305,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextText16"
@@ -316,13 +322,14 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextText17"
@@ -332,28 +339,29 @@
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="fill up"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextDate2"
         android:layout_width="150dp"
         android:layout_height="30dp"
-        android:layout_marginTop="500dp"
-        android:layout_marginEnd="28dp"
         android:background="@drawable/textbox"
         android:ems="10"
         android:inputType="date"
         android:text="mm/dd/year"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf=""
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
