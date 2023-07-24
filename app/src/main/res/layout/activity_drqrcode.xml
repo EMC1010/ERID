@@ -30,6 +30,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
+        android:id="@+id/imageViewQRCode"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/ic_qr_code"
