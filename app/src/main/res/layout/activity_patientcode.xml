@@ -19,6 +19,7 @@
         app:layout_constraintVertical_bias="0.041" />
 
     <ImageView
+        android:id="@+id/imageViewQRCode"
         android:layout_width="330dp"
         android:layout_height="330dp"
         android:layout_marginBottom="32dp"
