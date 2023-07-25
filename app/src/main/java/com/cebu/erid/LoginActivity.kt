@@ -28,9 +28,11 @@ class LoginActivity : AppCompatActivity() {
             val correctUsername = "your username"
             val correctPassword = "your password"
 
-            if (username == correctUsername && correctPassword == correctPassword) {
+            if (username == correctUsername && correctPassword == correctUsername) {
                 //Login Successful
                 showToast("Login Successful!")
+            }
+                if (password == correctUsername && correctPassword == correctPassword){
             } else {
                 //Login Failed
                 showToast("Invalid credentials. Please try again.")
