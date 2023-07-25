@@ -12,9 +12,9 @@ class PatientInfoActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_item)
 
-        val dropdown = findViewById<Spinner>(R.id.spinner1)
+//        val dropdown = findViewById<Spinner>(R.id.spinner1)
         val gender = arrayOf("Male", "Female", "Gay", "Lesbian", "Transgender")
         val adapter = ArrayAdapter(this, R.layout.simple_spinner_dropdown_item, gender)
-        dropdown.adapter = adapter
+//        dropdown.adapter = adapter
     }
 }

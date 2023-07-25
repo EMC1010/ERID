@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.696" />
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/btnLogin"
         android:layout_width="182dp"
         android:layout_height="63dp"
         android:layout_gravity="center"

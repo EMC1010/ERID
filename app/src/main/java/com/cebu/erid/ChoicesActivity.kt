@@ -16,6 +16,10 @@ class ChoicesActivity: AppCompatActivity() {
     fun onImageViewClick2(view: View){
         val intent = Intent(this, PatientInfoActivity::class.java)
         startActivity(intent)
+
+//        intent.setOnClickListener{
+//
+//        }
     }
 
     fun onImageViewClick(view: View){
