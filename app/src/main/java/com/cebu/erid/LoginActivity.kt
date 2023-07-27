@@ -32,8 +32,9 @@ class LoginActivity : AppCompatActivity() {
                 //Login Successful
                 showToast("Login Successful!")
             }
-                if (password == correctUsername && correctPassword == correctPassword){
-            } else {
+//                if (password == correctUsername && correctPassword == correctPassword){
+//            }
+            else {
                 //Login Failed
                 showToast("Invalid credentials. Please try again.")
                 }

@@ -13,13 +13,13 @@ class ChoicesActivity: AppCompatActivity() {
 
     }
 
-//    fun onImageViewClick2(view: View){
-//        val intent = Intent(this, PatientInfoActivity::class.java)
-//        startActivity(intent)
-//    }
-//
-//    fun onImageViewClick(view: View){
-//        val intent = Intent(this,DrInfoActivity::class.java)
-//        startActivity(intent)
-//    }
+    fun onImageViewClick2(view: View){
+        val intent = Intent(this, PatientInfoActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onImageViewClick(view: View){
+        val intent = Intent(this,DrInfoActivity::class.java)
+        startActivity(intent)
+    }
 }
