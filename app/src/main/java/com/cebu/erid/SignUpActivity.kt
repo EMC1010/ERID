@@ -1,11 +1,15 @@
 package com.cebu.erid
 
-import android.annotation.SuppressLint
+//import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Message
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.Toast
+import android.content.Intent
+import com.cebu.erid.databinding.ActivitySignupBinding
 import java.util.Scanner
 
 class SignUpActivity : AppCompatActivity() {
@@ -17,29 +21,49 @@ class SignUpActivity : AppCompatActivity() {
 //        val lastname: String
 //    )
 
-    @SuppressLint("MissingInflatedId")
+//    @SuppressLint("MissingInflatedId")
+
+//    private lateinit var etFirstName: EditText
+//    private lateinit var etLastName: EditText
+//    private lateinit var etUsername: EditText
+//    private lateinit var etPassword:EditText
+//    private lateinit var btnSignUp: Button
+    private lateinit var binding: ActivitySignupBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup)
+        binding = ActivitySignupBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val btnSignUp = findViewById<Button>(R.id.btnSignUp)
-        val etUsername = findViewById<EditText>(R.id.etUsername)
-        val etPassword = findViewById<EditText>(R.id.etPassword)
-        val etFirstName = findViewById<EditText>(R.id.etFirstName)
-        val etLastName = findViewById<EditText>(R.id.etLastName)
+        binding.btnSignUp.setOnClickListener {
+//            val username = etUsername.text.toString()
+//            val firstname = etFirstName.text.toString()
+//            val lastname = etLastName.text.toString()
+//            val password = etPassword.text.toString()
+//
+//
+//            val enterFirstName = "Enter your First Name"
+//            val enterLastName = "Enter your Surname"
+//            val enterUsername = "Enter your Username"
+//            val enterPassword = "Enter the Password"
+//
+//            if (firstname == enterFirstName && lastname == enterLastName && username == enterUsername && password == enterPassword){
+//                showToast("Sign Up Successful")
+//            }
+//            else {
+//                showToast("FILL UP")
+//            }
 
-
-        btnSignUp.setOnClickListener {
-            val username = etUsername.text.toString()
-            val firstname = etFirstName.text.toString()
-            val lastname = etLastName.text.toString()
-            val password = etPassword.text.toString()
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         val backButton: ImageView = findViewById(R.id.btnBack)
         backButton.setOnClickListener{
             finish()
         }
+    }
+
+    private fun showToast(message: String){
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show()
     }
 }
     //1. Add the viewBinding

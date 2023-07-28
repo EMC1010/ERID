@@ -112,7 +112,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnSignUp"
         android:layout_width="182dp"
         android:layout_height="63dp"
         android:backgroundTint="#CCFFD1"
