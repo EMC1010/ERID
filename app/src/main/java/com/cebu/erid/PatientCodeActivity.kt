@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.zxing.BarcodeFormat
 import com.journeyapps.barcodescanner.BarcodeEncoder
 import com.squareup.picasso.Picasso
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -22,6 +23,7 @@ class PatientCodeActivity: AppCompatActivity() {
 
         generateandDisplayQRCode()
     }
+    @OptIn(DelicateCoroutinesApi::class)
     private fun generateandDisplayQRCode() {
         GlobalScope.launch(Dispatchers.IO) {
             val content = "Your_content_to_encode"

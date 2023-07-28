@@ -8,6 +8,7 @@
     android:backgroundTint="#91DEFF">
 
     <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="411dp"
         android:layout_height="410dp"
         android:contentDescription="@string/todo"
@@ -24,12 +25,16 @@
         android:layout_height="63dp"
         android:backgroundTint="#CCFFD1"
         android:fontFamily="sans-serif-black"
-        android:textStyle="bold"
         android:text="LOGIN"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="617dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -44,24 +49,32 @@
         android:textColor="#0C0C0C"
         android:textSize="25dp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="385dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="230dp"
         android:layout_height="55dp"
         android:autofillHints="*******"
-        android:ems="10"
         android:background="@drawable/textbox"
+        android:ems="10"
         android:inputType="textPassword"
         android:text="**********"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
-        android:textStyle="bold"
         android:textSize="25dp"
-        tools:ignore="LabelFor,MissingConstraints"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="483dp" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        tools:ignore="LabelFor,MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
