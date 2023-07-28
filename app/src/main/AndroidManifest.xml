@@ -21,6 +21,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DrQRCodeActivity"
+            android:exported="false"/>
+        <activity android:name=".ChoicesActivity"
+            android:exported="false"/>
+        <activity android:name=".DrInfoActivity"
+            android:exported="false"/>
+        <activity android:name=".LoginActivity"
+            android:exported="false"/>
+        <activity android:name=".MedRecordActivity"
+            android:exported="false"/>
+        <activity android:name=".PatientCodeActivity"
+            android:exported="false"/>
+        <activity android:name=".PatientInfoActivity"
+            android:exported="false"/>
+        <activity android:name=".SignUpActivity"
+            android:exported="false"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

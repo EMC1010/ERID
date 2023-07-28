@@ -12,7 +12,7 @@ class ChoicesActivity: AppCompatActivity() {
 
 
     }
-
+//base on the Landing Page
     fun onImageViewClick2(view: View){
         val intent = Intent(this, PatientInfoActivity::class.java)
         startActivity(intent)
