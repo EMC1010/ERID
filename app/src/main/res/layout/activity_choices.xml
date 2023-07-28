@@ -6,7 +6,7 @@
     android:background="#91DEFF">
 
     <ImageView
-        android:id="@+id/imageDR"
+        android:id="@+id/btnDR"
         android:layout_width="250dp"
         android:layout_height="228dp"
         android:src="@drawable/doctor"
@@ -16,7 +16,7 @@
         android:contentDescription="TODO" />
 
     <ImageView
-        android:id="@+id/imagePatient"
+        android:id="@+id/btnPatient"
         android:layout_width="250dp"
         android:layout_height="228dp"
         android:src="@drawable/patient"

@@ -8,6 +8,7 @@
     android:backgroundTint="#91DEFF">
 
     <ImageView
+        android:id="@+id/btnBack"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_arrow_back"
