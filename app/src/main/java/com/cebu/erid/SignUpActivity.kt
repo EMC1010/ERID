@@ -3,22 +3,38 @@ package com.cebu.erid
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import android.widget.ImageView
 import java.util.Scanner
 
 class SignUpActivity : AppCompatActivity() {
 
-    data class User(
-        val username: String,
-        val password: String,
-        val firstname: String,
-        val lastname: String
-    )
+//    data class User(
+//        val username: String,
+//        val password: String,
+//        val firstname: String,
+//        val lastname: String
+//    )
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
+
+        val btnSignUp = findViewById<Button>(R.id.btnSignUp)
+        val etUsername = findViewById<EditText>(R.id.etUsername)
+        val etPassword = findViewById<EditText>(R.id.etPassword)
+        val etFirstName = findViewById<EditText>(R.id.etFirstName)
+        val etLastName = findViewById<EditText>(R.id.etLastName)
+
+
+        btnSignUp.setOnClickListener {
+            val username = etUsername.text.toString()
+            val firstname = etFirstName.text.toString()
+            val lastname = etLastName.text.toString()
+            val password = etPassword.text.toString()
+        }
 
         val backButton: ImageView = findViewById(R.id.btnBack)
         backButton.setOnClickListener{
