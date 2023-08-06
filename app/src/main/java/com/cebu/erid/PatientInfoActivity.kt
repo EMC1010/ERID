@@ -2,24 +2,50 @@ package com.cebu.erid
 
 
 //import android.R
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.cebu.erid.databinding.ActivityPatientBinding
 
 
 class PatientInfoActivity : AppCompatActivity() {
-//    AdapterView.OnItemSelectedListener {
+    private lateinit var binding: ActivityPatientBinding
+    //    AdapterView.OnItemSelectedListener {
 //
 //    var gender = arrayOf<String?>("Male", "Female", "Gay", "Lesbian", "Transgender")
+//
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_patient)
+        binding = ActivityPatientBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+        binding.btnNext.setOnClickListener{
+            Log.d("btnNext","click")
+            startActivity(Intent(this,MedRecordActivity::class.java))
+        }
+
+        val saveButton = findViewById<Button>(R.id.btnSave)
+
+        saveButton.setOnClickListener{
+            showToast("Info Saved")
+        }
+
+    }
+
+    private fun showToast(message: String){
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
+//
 //        val gender = resources.getStringArray(R.array.gender)
 //
 //        val spinner = findViewById<Spinner>(R.id.genderspinner)
@@ -37,7 +63,7 @@ class PatientInfoActivity : AppCompatActivity() {
 //            }
 //        }
 //        }
-
+//
 //        val spin = findViewById<Spinner>(R.id.genderspinner)
 //        spin.onItemSelectedListener = this
 //
@@ -58,4 +84,3 @@ class PatientInfoActivity : AppCompatActivity() {
 //    override fun onNothingSelected(parent: AdapterView<*>?) {}
 //    }
     }
-}
