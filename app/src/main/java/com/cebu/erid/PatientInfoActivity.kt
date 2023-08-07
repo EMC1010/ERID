@@ -1,9 +1,12 @@
+@file:Suppress("UNREACHABLE_CODE")
+
 package com.cebu.erid
 
 
 //import android.R
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.icu.text.Transliterator.Position
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -15,6 +18,7 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.cebu.erid.databinding.ActivityPatientBinding
+import java.lang.reflect.Array
 
 
 class PatientInfoActivity : AppCompatActivity() {
@@ -28,6 +32,29 @@ class PatientInfoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPatientBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val spinner: Spinner = findViewById(R.id.gender)
+
+        val adapter = ArrayAdapter.createFromResource(
+            this, R.array.gender, android.R.layout.simple_spinner_item
+        )
+
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
+
+        spinner.onItemSelectedListener(object : AdapterView.OnItemSelectedListener{
+            override fun onItemSelected(p0: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                TODO("Not yet implemented")
+
+                val selectedItem = parent.getItemAtPosition(1) as String
+
+                Toast.makeText(applicationContext, "Selected:$selectedItem", Toast.LENGTH_LONG).show()
+            }
+
+            override fun onNothingSelected(p0: AdapterView<*>?) {
+                TODO("Not yet implemented")
+            }
+            }
+        )
 
         binding.btnNext.setOnClickListener{
             Log.d("btnNext","click")
