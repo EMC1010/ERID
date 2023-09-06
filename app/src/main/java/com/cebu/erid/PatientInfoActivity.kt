@@ -41,20 +41,20 @@ class PatientInfoActivity : AppCompatActivity() {
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
 
-        spinner.onItemSelectedListener(object : AdapterView.OnItemSelectedListener{
-            override fun onItemSelected(p0: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                TODO("Not yet implemented")
-
-                val selectedItem = parent.getItemAtPosition(1) as String
-
-                Toast.makeText(applicationContext, "Selected:$selectedItem", Toast.LENGTH_LONG).show()
-            }
-
-            override fun onNothingSelected(p0: AdapterView<*>?) {
-                TODO("Not yet implemented")
-            }
-            }
-        )
+//        spinner.onItemSelectedListener(object : AdapterView.OnItemSelectedListener{
+//            override fun onItemSelected(p0: AdapterView<*>?, view: View?, position: Int, id: Long) {
+//                TODO("Not yet implemented")
+//
+//                val selectedItem = parent.getItemAtPosition(1) as String
+//
+//                Toast.makeText(applicationContext, "Selected:$selectedItem", Toast.LENGTH_LONG).show()
+//            }
+//
+//            override fun onNothingSelected(p0: AdapterView<*>?) {
+//                TODO("Not yet implemented")
+//            }
+//            }
+//        )
 
         binding.btnNext.setOnClickListener{
             Log.d("btnNext","click")
